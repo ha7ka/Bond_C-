@@ -105,10 +105,6 @@ void Bond::setCoupons(const std::vector<double> &c)
         }
     }
 
-    // for(int i = 0; i < _numCpnPeriods; ++i)
-    // {
-    //     std::cout<<"coupon at date: "<< i <<" is: "<<_cpnAmt[i]<<std::endl;
-    // }
 
 }
 int Bond::FV_duration(double t0, double y, double &B,double &Mac_dur, double &mod_dur) const
